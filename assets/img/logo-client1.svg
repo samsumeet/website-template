@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
+  <rect width="120" height="40" fill="none"/>
+  <path d="M20,10 L30,20 L20,30 L10,20 Z" fill="#4285F4"/>
+  <text x="40" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Client One</text>
+</svg>

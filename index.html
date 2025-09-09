@@ -1,0 +1,1217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Seres IT Solutions — SAP, AI, Software Development & Security</title>
+  <meta name="description" content="Seres IT Solutions delivers consulting and engineering across SAP, AI, custom software development, and cybersecurity. Enterprise-grade solutions with measurable outcomes.">
+  <meta name="author" content="Seres IT Solutions">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Seres IT Solutions — SAP, AI, Software Development & Security">
+  <meta property="og:description" content="Consulting and engineering across SAP, AI, custom development, and security.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.seresit.com/">
+  <meta property="og:image" content="https://www.seresit.com//assets/img/seres-logo.jpeg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Seres IT Solutions — SAP, AI, Software Development & Security">
+  <meta name="twitter:description" content="Enterprise-grade SAP, AI, custom software, and security services.">
+  <meta name="twitter:image" content="https://www.example.com/assets/img/og-cover.png">
+
+  <link rel="icon" href="/assets/img/favicon.ico">
+
+  <!-- Bootstrap CSS (LTR). For RTL locales, switch to the RTL build shown in comments. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  
+  <!-- Flag Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons@6.11.2/css/flag-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="canonical" href="https://www.example.com/">
+  <meta name="robots" content="index,follow">
+
+  <!-- JSON-LD Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Seres IT Solutions",
+    "url":"https://www.example.com",
+    "logo":"https://www.example.com/assets/img/logo-dark.svg",
+    "sameAs":[
+      "https://www.linkedin.com/company/seres-it-solutions",
+      "https://twitter.com/seres_it"
+    ],
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"sales",
+      "email":"info@seresit.com",
+      "areaServed":"Worldwide",
+      "availableLanguage":["en","de"]
+    }]
+  }
+  </script>
+</head>
+<body data-bs-theme="light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <img src="/assets/img/logo-light.svg" height="28" alt="Seres IT Solutions logo" class="d-none d-dark-inline">
+        <img src="/assets/img/logo-dark.svg" height="28" alt="Seres IT Solutions logo" class="d-inline d-dark-none">
+        <span class="fw-bold">Seres IT Solutions</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navMain" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav.services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cases" data-i18n="nav.cases">Case Studies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stack" data-i18n="nav.stack">Tech Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing" data-i18n="nav.pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+          <li class="nav-item dropdown ms-2 me-2">
+            <button class="nav-link dropdown-toggle d-flex align-items-center gap-1 btn btn-link p-2" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-translate"></i> <span id="currentLang">EN</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+              <button class="dropdown-item language-option d-flex align-items-center gap-2" data-lang="en">
+                <span class="fi fi-gb"></span> English
+              </button>
+              <button class="dropdown-item language-option d-flex align-items-center gap-2" data-lang="de">
+                <span class="fi fi-de"></span> Deutsch
+              </button>
+              <button class="dropdown-item language-option d-flex align-items-center gap-2" data-lang="fr">
+                <span class="fi fi-fr"></span> Français
+              </button>
+            </div>
+          </li>
+          <li class="nav-item">
+            <button id="themeToggle" class="btn btn-outline-secondary btn-sm" aria-label="Toggle dark mode">
+              <i class="bi bi-moon-stars"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="py-5 py-lg-6 bg-gradient hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-12 col-lg-6">
+          <h1 class="display-5 fw-bold" data-i18n="hero.title">Enterprise Outcomes with SAP, AI, Software, and Security</h1>
+          <p class="lead text-secondary" data-i18n="hero.subtitle">Seres IT Solutions designs, implements, and secures digital platforms—accelerating transformation in weeks, not months.</p>
+          <div class="d-flex gap-3">
+            <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-rocket-takeoff"></i> <span data-i18n="hero.cta_start">Start a Project</span></a>
+            <a href="#services" class="btn btn-outline-primary btn-lg"><i class="bi bi-grid-1x2"></i> <span data-i18n="hero.cta_explore">Explore Services</span></a>
+          </div>
+          <div class="mt-4 small text-muted" data-i18n="hero.certifications">ISO 27001 practices • Cloud-native • On-prem & hybrid • EU GDPR compliant</div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="/assets/img/hero-illustration.png" class="img-fluid" alt="Enterprise consulting illustration">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos -->
+  <section class="py-4 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 opacity-75">
+        <img src="/assets/img/infosys_logo.svg.png" height="18" alt="Client 1" class="img-fluid" style="max-width: 80px;">
+        <img src="/assets/img/Capgemini_logo.svg" height="18" alt="Client 2" class="img-fluid" style="max-width: 80px;">
+        <img src="/assets/img/sap_logo.png" height="18" alt="Client 3" class="img-fluid" style="max-width: 80px;">
+        <img src="/assets/img/accenture_logo.svg" height="18" alt="Client 4" class="img-fluid" style="max-width: 80px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-5 py-lg-6">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-i18n="services.title">Services</h2>
+        <p class="text-secondary" data-i18n="services.subtitle">Focused practices that deliver measurable business value.</p>
+      </div>
+      <div class="row g-4">
+        <!-- SAP -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-diagram-3 fs-2 text-primary"></i>
+              <h3 class="h5 mt-3" data-i18n="services.sap.title">SAP Consulting</h3>
+              <p class="text-secondary" data-i18n="services.sap.description">S/4HANA, EWM, integrations, ABAP/OO, Fiori, and process optimization with fit-to-standard delivery.</p>
+              <ul class="small mb-0">
+                <li data-i18n="services.sap.features.0">EWM embedded/decentralized</li>
+                <li data-i18n="services.sap.features.1">Integration models & IDocs</li>
+                <li data-i18n="services.sap.features.2">Fiori apps & extensions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- AI -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-cpu fs-2 text-primary"></i>
+              <h3 class="h5 mt-3" data-i18n="services.ai.title">AI Engineering</h3>
+              <p class="text-secondary" data-i18n="services.ai.description">LLM apps, RAG, vector search, MLOps, and data pipelines to productionize intelligent features.</p>
+              <ul class="small mb-0">
+                <li data-i18n="services.ai.features.0">Model integration & evals</li>
+                <li data-i18n="services.ai.features.1">RAG with governance</li>
+                <li data-i18n="services.ai.features.2">Realtime inference</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Software -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-braces fs-2 text-primary"></i>
+              <h3 class="h5 mt-3" data-i18n="services.software.title">Software Development</h3>
+              <p class="text-secondary" data-i18n="services.software.description">Cloud-native, APIs, microservices, and modern frontends with CI/CD and observability built-in.</p>
+              <ul class="small mb-0">
+                <li data-i18n="services.software.features.0">Java/Spring Boot & Node</li>
+                <li data-i18n="services.software.features.1">React/Next & mobile</li>
+                <li data-i18n="services.software.features.2">Kafka, MongoDB, SQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Security -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-shield-lock fs-2 text-primary"></i>
+              <h3 class="h5 mt-3" data-i18n="services.security.title">Security & Compliance</h3>
+              <p class="text-secondary" data-i18n="services.security.description">Threat modeling, hardening, IAM, code scanning, and incident response aligned to ISO 27001.</p>
+              <ul class="small mb-0">
+                <li data-i18n="services.security.features.0">Secure SDLC & DevSecOps</li>
+                <li data-i18n="services.security.features.1">Pen-test remediation</li>
+                <li data-i18n="services.security.features.2">Zero Trust patterns</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies -->
+  <section id="cases" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-i18n="cases.title">Case Studies</h2>
+        <p class="text-secondary" data-i18n="cases.subtitle">Selected outcomes from recent engagements.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5" data-i18n="cases.case1.title">SAP EWM Modernization</h3>
+              <p class="text-secondary mb-2" data-i18n="cases.case1.description">Embedded EWM rollout with RF screens and workload balancing. 28% faster warehouse turns.</p>
+              <span class="badge text-bg-primary">SAP</span>
+              <span class="badge text-bg-secondary">EWM</span>
+              <span class="badge text-bg-success">Integration</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3 class="h5" data-i18n="cases.case2.title">AI Knowledge Assistant</h3>
+              <p class="text-secondary mb-2" data-i18n="cases.case2.description">RAG over internal docs reduced MTTR by 41% and improved first-response quality.</p>
+              <span class="badge text-bg-primary">AI</span>
+              <span class="badge text-bg-secondary">RAG</span>
+              <span class="badge text-bg-success">MLOps</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a class="btn btn-outline-secondary" href="#contact"><i class="bi bi-file-earmark-text"></i> <span data-i18n="cases.cta">Request detailed references</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="stack" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-i18n="stack.title">Tech Stack</h2>
+        <p class="text-secondary" data-i18n="stack.subtitle">Battle‑tested tools chosen for reliability, speed, and security.</p>
+      </div>
+      <div class="row row-cols-2 row-cols-md-4 g-4 text-center">
+        <div><i class="bi bi-cloud fs-1 text-primary"></i><div>AWS/Azure/GCP</div></div>
+        <div><i class="bi bi-box-seam fs-1 text-primary"></i><div>Docker/K8s</div></div>
+        <div><i class="bi bi-diagram-3 fs-1 text-primary"></i><div>SAP S/4HANA/EWM</div></div>
+        <div><i class="bi bi-braces fs-1 text-primary"></i><div>Java/Spring</div></div>
+        <div><i class="bi bi-braces-asterisk fs-1 text-primary"></i><div>Node/TypeScript</div></div>
+        <div><i class="bi bi-window fs-1 text-primary"></i><div>React/Next</div></div>
+        <div><i class="bi bi-shield-lock fs-1 text-primary"></i><div>IAM/Zero Trust</div></div>
+        <div><i class="bi bi-graph-up fs-1 text-primary"></i><div>Kafka/MongoDB</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold section-title" data-i18n="testimonials.title">Testimonials</h2>
+        <p class="text-secondary" data-i18n="testimonials.subtitle">What partners say about the collaboration.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="testimonial">
+            <p class="mb-3 fst-italic" data-i18n="testimonials.testimonial1.quote">"Their EWM expertise and integration speed were outstanding. We completed the implementation 30% faster than expected and saw immediate operational improvements."</p>
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-brand d-flex align-items-center justify-content-center text-white" style="width: 40px; height: 40px;">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div class="ms-3">
+                <div class="fw-bold" data-i18n="testimonials.testimonial1.name">Thomas Weber</div>
+                <div class="small text-secondary" data-i18n="testimonials.testimonial1.role">Head of Operations, Retail</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial">
+            <p class="mb-3 fst-italic" data-i18n="testimonials.testimonial2.quote">"The AI assistant transformed our support experience and KPIs. Response times dropped by 41% and customer satisfaction increased to 94%."</p>
+            <div class="d-flex align-items-center">
+              <div class="rounded-circle bg-brand d-flex align-items-center justify-content-center text-white" style="width: 40px; height: 40px;">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div class="ms-3">
+                <div class="fw-bold" data-i18n="testimonials.testimonial2.name">Sarah Chen</div>
+                <div class="small text-secondary" data-i18n="testimonials.testimonial2.role">VP Engineering, SaaS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold" data-i18n="pricing.title">Pricing</h2>
+        <p class="text-secondary" data-i18n="pricing.subtitle">Transparent engagement models with clear deliverables and flexible options.</p>
+      </div>
+      
+      <!-- Pricing tabs for different service areas -->
+      <ul class="nav nav-pills mb-4 justify-content-center" id="pricingTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="all-tab" data-bs-toggle="pill" data-bs-target="#all-pricing" type="button" role="tab" aria-controls="all-pricing" aria-selected="true" data-i18n="pricing.tabs.all">All Services</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="sap-tab" data-bs-toggle="pill" data-bs-target="#sap-pricing" type="button" role="tab" aria-controls="sap-pricing" aria-selected="false" data-i18n="pricing.tabs.sap">SAP</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="ai-tab" data-bs-toggle="pill" data-bs-target="#ai-pricing" type="button" role="tab" aria-controls="ai-pricing" aria-selected="false" data-i18n="pricing.tabs.ai">AI</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="software-tab" data-bs-toggle="pill" data-bs-target="#software-pricing" type="button" role="tab" aria-controls="software-pricing" aria-selected="false" data-i18n="pricing.tabs.software">Software</button>
+        </li>
+      </ul>
+      
+      <!-- Tab content -->
+      <div class="tab-content" id="pricingTabContent">
+        <!-- All Services Tab -->
+        <div class="tab-pane fade show active" id="all-pricing" role="tabpanel" aria-labelledby="all-tab">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100 border-primary">
+                <div class="card-header text-bg-primary">
+                  <h3 class="h5 mb-0">Discovery</h3>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-baseline mb-3">
+                    <h3 class="h4" data-i18n="pricing.discovery.timeframe">2–3 weeks</h3>
+                    <span class="badge bg-primary-subtle text-primary" data-i18n="pricing.discovery.price">From €15,000</span>
+                  </div>
+                  <p class="text-secondary" data-i18n="pricing.discovery.description">A focused assessment of your needs and environment to create a detailed plan.</p>
+                  <ul class="mb-4">
+                    <li data-i18n="pricing.discovery.features.0">Requirements workshops</li>
+                    <li data-i18n="pricing.discovery.features.1">Current state assessment</li>
+                    <li data-i18n="pricing.discovery.features.2">Architecture & solution blueprint</li>
+                    <li data-i18n="pricing.discovery.features.3">PoC for complex scenarios</li>
+                    <li data-i18n="pricing.discovery.features.4">Implementation roadmap</li>
+                    <li data-i18n="pricing.discovery.features.5">Detailed cost/time estimates</li>
+                  </ul>
+                  <div class="small text-secondary mb-4">
+                    <i class="bi bi-info-circle me-1"></i> <span data-i18n="pricing.discovery.note">Discovery fee credited to implementation for projects signed within 60 days</span>
+                  </div>
+                  <a href="#contact" class="btn btn-primary w-100" data-i18n="pricing.discovery.cta">Get Proposal</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-success">
+                <div class="card-header text-bg-success">
+                  <h3 class="h5 mb-0">Build</h3>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-baseline mb-3">
+                    <h3 class="h4">4–12 weeks</h3>
+                    <span class="badge bg-success-subtle text-success">Custom Pricing</span>
+                  </div>
+                  <p class="text-secondary">Implementation in agile sprints with transparent tracking and regular demos.</p>
+                  <ul class="mb-4">
+                    <li>Dedicated agile team</li>
+                    <li>Weekly sprints & demos</li>
+                    <li>Continuous security reviews</li>
+                    <li>Documentation & knowledge transfer</li>
+                    <li>User acceptance testing</li>
+                    <li>Production deployment support</li>
+                  </ul>
+                  <div class="mb-4">
+                    <div class="d-flex justify-content-between small mb-1">
+                      <span>Fixed-price</span>
+                      <span>Time & materials</span>
+                    </div>
+                    <div class="progress" role="progressbar" style="height: 8px;">
+                      <div class="progress-bar bg-success" style="width: 50%"></div>
+                    </div>
+                    <div class="small text-secondary mt-1">
+                      <i class="bi bi-check-circle me-1"></i> Both pricing options available
+                    </div>
+                  </div>
+                  <a href="#contact" class="btn btn-success w-100">Scope Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100 border-dark">
+                <div class="card-header text-bg-dark">
+                  <h3 class="h5 mb-0">Run</h3>
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-baseline mb-3">
+                    <h3 class="h4">Monthly</h3>
+                    <span class="badge bg-dark-subtle text-dark">Tiered Support</span>
+                  </div>
+                  <p class="text-secondary">Ongoing maintenance, monitoring, and continuous improvement.</p>
+                  <div class="table-responsive mb-4">
+                    <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th>Tier</th>
+                          <th>Response</th>
+                          <th>Hours</th>
+                        </tr>
+                      </thead>
+                      <tbody class="small">
+                        <tr>
+                          <td>Standard</td>
+                          <td>8 hrs</td>
+                          <td>9-5 CET</td>
+                        </tr>
+                        <tr>
+                          <td>Business</td>
+                          <td>4 hrs</td>
+                          <td>8-8 CET</td>
+                        </tr>
+                        <tr>
+                          <td>Premium</td>
+                          <td>1 hr</td>
+                          <td>24/7</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <ul class="mb-4">
+                    <li>SLA-based support</li>
+                    <li>Monitoring & alerting</li>
+                    <li>Security patches</li>
+                    <li>Quarterly health checks</li>
+                    <li>Feature enhancements</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-dark w-100">Choose Plan</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- SAP Tab -->
+        <div class="tab-pane fade" id="sap-pricing" role="tabpanel" aria-labelledby="sap-tab">
+          <div class="alert alert-info">
+            <div class="d-flex">
+              <i class="bi bi-info-circle-fill me-2 fs-5"></i>
+              <div>
+                <strong>SAP pricing tailored to your landscape</strong>
+                <p class="mb-0 small">Our SAP services are priced based on your specific modules, landscape complexity, and integration needs. Contact us for a detailed assessment.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="h5">Common SAP Service Packages</h4>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Package</th>
+                      <th>Description</th>
+                      <th>Typical Timeframe</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>S/4HANA Assessment</td>
+                      <td>Business process analysis, custom code review, and migration roadmap</td>
+                      <td>3-4 weeks</td>
+                    </tr>
+                    <tr>
+                      <td>EWM Implementation</td>
+                      <td>Warehouse setup, RF configuration, and integration with ERP</td>
+                      <td>8-12 weeks</td>
+                    </tr>
+                    <tr>
+                      <td>Fiori App Development</td>
+                      <td>Custom app design, development and deployment to SAP Gateway</td>
+                      <td>4-6 weeks per app</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <a href="#contact" class="btn btn-primary">Request SAP Pricing</a>
+          </div>
+        </div>
+        
+        <!-- AI Tab -->
+        <div class="tab-pane fade" id="ai-pricing" role="tabpanel" aria-labelledby="ai-tab">
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-header bg-light">
+                  <h3 class="h5 mb-0">RAG Assistant</h3>
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <span class="badge bg-primary">Starting at €35,000</span>
+                  </div>
+                  <p>Enterprise knowledge assistant with secure document ingestion and LLM integration.</p>
+                  <ul class="mb-4">
+                    <li>Document processing pipeline</li>
+                    <li>Semantic search & RAG</li>
+                    <li>Custom UI with chat interface</li>
+                    <li>User permissions & audit logs</li>
+                    <li>Integration with existing systems</li>
+                  </ul>
+                  <div class="small text-secondary mb-3">
+                    <i class="bi bi-clock me-1"></i> Typically 6-8 weeks for v1
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-header bg-light">
+                  <h3 class="h5 mb-0">ML Operations</h3>
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <span class="badge bg-primary">€8,000/month</span>
+                  </div>
+                  <p>End-to-end MLOps platform setup and management for model deployment and monitoring.</p>
+                  <ul class="mb-4">
+                    <li>Model training infrastructure</li>
+                    <li>CI/CD for ML models</li>
+                    <li>A/B testing framework</li>
+                    <li>Monitoring & observability</li>
+                    <li>Model governance & versioning</li>
+                  </ul>
+                  <div class="small text-secondary mb-3">
+                    <i class="bi bi-tools me-1"></i> Initial setup plus ongoing management
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-header bg-light">
+                  <h3 class="h5 mb-0">Custom AI Solutions</h3>
+                </div>
+                <div class="card-body">
+                  <div class="mb-3">
+                    <span class="badge bg-primary">Custom Pricing</span>
+                  </div>
+                  <p>Bespoke AI applications tailored to your specific business needs and data.</p>
+                  <ul class="mb-4">
+                    <li>Computer vision systems</li>
+                    <li>NLP & document processing</li>
+                    <li>Predictive analytics</li>
+                    <li>Recommendation engines</li>
+                    <li>Agent-based systems</li>
+                  </ul>
+                  <div class="small text-secondary mb-3">
+                    <i class="bi bi-clipboard-data me-1"></i> Scoped based on complexity
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-4">
+            <a href="#contact" class="btn btn-primary">Discuss AI Project</a>
+          </div>
+        </div>
+        
+        <!-- Software Tab -->
+        <div class="tab-pane fade" id="software-pricing" role="tabpanel" aria-labelledby="software-tab">
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="h5 mb-3">Time & Materials</h4>
+                  <p>Flexible team augmentation with skilled developers working in your processes.</p>
+                  <div class="table-responsive mb-3">
+                    <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th>Role</th>
+                          <th>Rate Range (€/day)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Junior Developer</td>
+                          <td>500-600</td>
+                        </tr>
+                        <tr>
+                          <td>Senior Developer</td>
+                          <td>700-850</td>
+                        </tr>
+                        <tr>
+                          <td>Solution Architect</td>
+                          <td>900-1100</td>
+                        </tr>
+                        <tr>
+                          <td>Project Manager</td>
+                          <td>800-950</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="small text-secondary">
+                    <i class="bi bi-calendar3 me-1"></i> Minimum engagement: 10 days
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="h5 mb-3">Fixed-Price Projects</h4>
+                  <p>Well-defined deliverables with clear requirements and acceptance criteria.</p>
+                  <ul class="mb-3">
+                    <li>Detailed scope and specifications</li>
+                    <li>Fixed budget with clear milestones</li>
+                    <li>Change management process</li>
+                    <li>Quality acceptance criteria</li>
+                    <li>Project governance structure</li>
+                  </ul>
+                  <div class="small text-secondary">
+                    <i class="bi bi-shield-check me-1"></i> Guaranteed delivery or money-back
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-body">
+              <h4 class="h5 mb-3">Common Project Types</h4>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Project</th>
+                      <th>Description</th>
+                      <th>Typical Investment</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Web Application</td>
+                      <td>Custom web app with backend APIs, database, and frontend</td>
+                      <td>€50,000-120,000</td>
+                    </tr>
+                    <tr>
+                      <td>Mobile App</td>
+                      <td>iOS/Android app with cloud backend</td>
+                      <td>€60,000-150,000</td>
+                    </tr>
+                    <tr>
+                      <td>API Platform</td>
+                      <td>Scalable API gateway with documentation and developer portal</td>
+                      <td>€40,000-90,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center mt-4">
+            <a href="#contact" class="btn btn-primary">Request Software Estimate</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-5">
+        <div class="card border-0 bg-light">
+          <div class="card-body">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <h4>Not sure which model fits your needs?</h4>
+                <p class="mb-md-0">Our experts can help you choose the right engagement model and provide a detailed estimate for your specific requirements.</p>
+              </div>
+              <div class="col-md-4 text-md-end">
+                <a href="#contact" class="btn btn-outline-primary">Schedule a Consultation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div class="p-4 border rounded h-100">
+            <h2 class="fw-bold mb-3" data-i18n="contact.title">Contact</h2>
+            <p class="text-secondary" data-i18n="contact.subtitle">Tell us about the challenge, and we'll propose the fastest path to value.</p>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" data-i18n="contact.form.name">Name</label>
+                  <input type="text" class="form-control" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" data-i18n="contact.form.email">Email</label>
+                  <input type="email" class="form-control" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" data-i18n="contact.form.topic">Topic</label>
+                  <select class="form-select" required data-i18n-options="contact.form.topics">
+                    <option value="" data-i18n="contact.form.topic_placeholder">Choose…</option>
+                    <option>SAP</option>
+                    <option>AI</option>
+                    <option>Software Development</option>
+                    <option>Security</option>
+                  </select>
+                  <div class="invalid-feedback">Please choose a topic.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" data-i18n="contact.form.message">Message</label>
+                  <textarea class="form-control" rows="4" required></textarea>
+                  <div class="invalid-feedback">Please add a short message.</div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-send"></i> <span data-i18n="contact.form.submit">Send</span></button>
+                </div>
+              </div>
+            </form>
+            <div class="small text-secondary mt-3" data-i18n="contact.gdpr_notice">By submitting, you agree to our processing of your data for the purpose of responding to your inquiry.</div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-4 border rounded h-100">
+            <h3 class="h6">Legal</h3>
+            <ul class="small mb-0">
+              <li><a href="#imprint" data-bs-toggle="modal" data-bs-target="#imprintModal" data-i18n="footer.links.imprint">Imprint</a></li>
+              <li><a href="#privacy-policy" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" data-i18n="footer.links.privacy">Privacy Policy (GDPR)</a></li>
+              <li><a href="#cookie-policy" data-bs-toggle="modal" data-bs-target="#cookiePolicyModal" data-i18n="footer.links.cookies">Cookie Policy</a></li>
+              <li><a href="#terms-of-service" data-bs-toggle="modal" data-bs-target="#termsOfServiceModal" data-i18n="footer.links.terms">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="small">© <span id="year"></span> Seres IT Solutions. <span data-i18n="footer.copyright">All rights reserved.</span></div>
+      <div class="d-flex gap-3 small">
+        <a href="#privacy-policy" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" data-i18n="footer.links.privacy">Privacy</a>
+        <a href="#cookie-policy" data-bs-toggle="modal" data-bs-target="#cookiePolicyModal" data-i18n="footer.links.cookies">Cookies</a>
+        <a href="#terms-of-service" data-bs-toggle="modal" data-bs-target="#termsOfServiceModal" data-i18n="footer.links.terms">Terms</a>
+        <a href="#imprint" data-bs-toggle="modal" data-bs-target="#imprintModal" data-i18n="footer.links.imprint">Imprint</a>
+        <a href="#" data-i18n="footer.links.security">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Initialize Bootstrap Dropdowns -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Manually initialize the language dropdown
+      var languageDropdown = document.getElementById('languageDropdown');
+      if (languageDropdown) {
+        languageDropdown.addEventListener('click', function() {
+          var dropdownMenu = this.nextElementSibling;
+          if (dropdownMenu.classList.contains('show')) {
+            dropdownMenu.classList.remove('show');
+            this.setAttribute('aria-expanded', 'false');
+          } else {
+            dropdownMenu.classList.add('show');
+            this.setAttribute('aria-expanded', 'true');
+          }
+        });
+      }
+      
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!event.target.closest('.dropdown')) {
+          var dropdowns = document.querySelectorAll('.dropdown-menu.show');
+          dropdowns.forEach(function(dropdown) {
+            dropdown.classList.remove('show');
+            var trigger = dropdown.previousElementSibling;
+            if (trigger) {
+              trigger.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+      });
+    });
+  </script>
+
+  <!-- App JS -->
+  <script src="/assets/js/main.js" type="module"></script>
+
+  <!-- Cookie Consent Dialog -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="cookieConsentToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+      <div class="toast-header">
+        <i class="bi bi-shield-check me-2 text-primary"></i>
+        <strong class="me-auto" data-i18n="cookies.header">Privacy Notice</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        <p data-i18n="cookies.message">We use cookies to enhance your experience and analyze our website traffic. You can customize your preferences.</p>
+        <div class="d-flex flex-column gap-2 mt-3">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="necessaryCookies" checked disabled>
+            <label class="form-check-label" for="necessaryCookies" data-i18n="cookies.necessary">Necessary (Required)</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="analyticsCookies">
+            <label class="form-check-label" for="analyticsCookies" data-i18n="cookies.analytics">Analytics</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="marketingCookies">
+            <label class="form-check-label" for="marketingCookies" data-i18n="cookies.marketing">Marketing</label>
+          </div>
+        </div>
+        <div class="mt-3 d-flex justify-content-between">
+          <button type="button" id="acceptAllCookies" class="btn btn-primary btn-sm" data-i18n="cookies.accept_all">Accept All</button>
+          <button type="button" id="savePreferences" class="btn btn-outline-secondary btn-sm" data-i18n="cookies.save_preferences">Save Preferences</button>
+        </div>
+        <div class="mt-2 small text-muted">
+          <a href="#privacy-policy" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" class="text-decoration-none">Privacy Policy</a> • 
+          <a href="#cookie-policy" data-bs-toggle="modal" data-bs-target="#cookiePolicyModal" class="text-decoration-none">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GDPR Data Processing Notice -->
+  <div class="toast-container position-fixed bottom-0 start-0 p-3">
+    <div id="gdprToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+      <div class="toast-header bg-info text-white">
+        <i class="bi bi-info-circle me-2"></i>
+        <strong class="me-auto" data-i18n="gdpr.header">GDPR Notice</strong>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        <p data-i18n="gdpr.message">This site processes personal data in accordance with the EU GDPR. We respect your right to data access, rectification, and erasure.</p>
+        <div class="mt-2 d-flex justify-content-between">
+          <button type="button" id="acceptGdpr" class="btn btn-info btn-sm text-white" data-i18n="gdpr.accept">I Understand</button>
+          <a href="#" class="btn btn-outline-secondary btn-sm" data-i18n="gdpr.learn_more">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="privacyPolicyModalLabel">Privacy Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Last Updated: September 9, 2025</h6>
+          
+          <h5 class="mt-4">1. Introduction</h5>
+          <p>Seres IT Solutions ("we," "our," or "us") respects your privacy and is committed to protecting your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+          
+          <h5 class="mt-4">2. Information We Collect</h5>
+          <p>We may collect the following types of information:</p>
+          <ul>
+            <li><strong>Personal Information:</strong> Name, email address, phone number, company name, and job title when you contact us or submit forms.</li>
+            <li><strong>Usage Data:</strong> Information about how you use our website, including IP address, browser type, pages visited, time spent on pages, and referring URLs.</li>
+            <li><strong>Cookies and Similar Technologies:</strong> We use cookies and similar technologies to enhance your experience, analyze usage, and assist in our marketing efforts. See our <a href="#cookie-policy" data-bs-toggle="modal" data-bs-target="#cookiePolicyModal" data-bs-dismiss="modal">Cookie Policy</a> for more details.</li>
+          </ul>
+          
+          <h5 class="mt-4">3. How We Use Your Information</h5>
+          <p>We use the information we collect for various purposes, including:</p>
+          <ul>
+            <li>Providing, maintaining, and improving our services</li>
+            <li>Responding to your inquiries and providing customer support</li>
+            <li>Sending you technical notices, updates, and administrative messages</li>
+            <li>Communicating with you about products, services, offers, and events</li>
+            <li>Monitoring and analyzing trends, usage, and activities in connection with our services</li>
+            <li>Detecting, investigating, and preventing fraudulent transactions and other illegal activities</li>
+            <li>Complying with legal obligations</li>
+          </ul>
+          
+          <h5 class="mt-4">4. Legal Basis for Processing (EU/EEA)</h5>
+          <p>For users in the European Economic Area (EEA), we process your personal data based on the following legal grounds:</p>
+          <ul>
+            <li><strong>Consent:</strong> We process your data based on your explicit consent.</li>
+            <li><strong>Contractual Necessity:</strong> To fulfill our contractual obligations to you.</li>
+            <li><strong>Legitimate Interests:</strong> To pursue our legitimate business interests in a way that does not override your rights and freedoms.</li>
+            <li><strong>Legal Obligation:</strong> To comply with applicable laws and regulations.</li>
+          </ul>
+          
+          <h5 class="mt-4">5. Data Sharing and Disclosure</h5>
+          <p>We may share your information with:</p>
+          <ul>
+            <li><strong>Service Providers:</strong> Third-party vendors who provide services on our behalf, such as hosting, data analysis, payment processing, and customer service.</li>
+            <li><strong>Business Partners:</strong> With your consent, we may share your information with our business partners to offer you certain products, services, or promotions.</li>
+            <li><strong>Legal Requirements:</strong> When required by law or to protect our rights, privacy, safety, or property.</li>
+          </ul>
+          
+          <h5 class="mt-4">6. International Data Transfers</h5>
+          <p>Your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws. We have implemented appropriate safeguards to ensure that your personal data remains protected in accordance with this Privacy Policy.</p>
+          
+          <h5 class="mt-4">7. Data Retention</h5>
+          <p>We retain your personal data for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.</p>
+          
+          <h5 class="mt-4">8. Your Data Protection Rights</h5>
+          <p>Depending on your jurisdiction, you may have the following rights:</p>
+          <ul>
+            <li>Access to your personal data</li>
+            <li>Correction of inaccurate or incomplete data</li>
+            <li>Erasure of your personal data</li>
+            <li>Restriction of processing of your personal data</li>
+            <li>Data portability</li>
+            <li>Objection to processing of your personal data</li>
+            <li>Withdrawal of consent</li>
+          </ul>
+          <p>To exercise these rights, please contact us using the information provided in the "Contact Us" section.</p>
+          
+          <h5 class="mt-4">9. Data Security</h5>
+          <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
+          
+          <h5 class="mt-4">10. Changes to This Privacy Policy</h5>
+          <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+          
+          <h5 class="mt-4">11. Contact Us</h5>
+          <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+          <p>Seres IT Solutions<br>
+          Email: privacy@seresit.com<br>
+          Address: Mainzer Landstraße 50, 60325 Frankfurt am Main, Germany</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie Policy Modal -->
+  <div class="modal fade" id="cookiePolicyModal" tabindex="-1" aria-labelledby="cookiePolicyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cookiePolicyModalLabel">Cookie Policy</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Last Updated: September 9, 2025</h6>
+          
+          <h5 class="mt-4">1. Introduction</h5>
+          <p>This Cookie Policy explains how Seres IT Solutions ("we," "our," or "us") uses cookies and similar technologies on our website. This policy should be read alongside our <a href="#privacy-policy" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" data-bs-dismiss="modal">Privacy Policy</a>, which explains how we use personal information.</p>
+          
+          <h5 class="mt-4">2. What Are Cookies?</h5>
+          <p>Cookies are small text files that are stored on your browser or device when you visit a website. They allow the website to recognize your device and remember certain information about your visit, such as your preferences and actions on the site.</p>
+          
+          <h5 class="mt-4">3. Types of Cookies We Use</h5>
+          <p>We use the following types of cookies on our website:</p>
+          
+          <h6 class="mt-3">3.1 Necessary Cookies</h6>
+          <p>These cookies are essential for the website to function properly and cannot be switched off in our systems. They are usually only set in response to actions you take, such as setting your privacy preferences, logging in, or filling in forms. You can set your browser to block these cookies, but some parts of the site will not work.</p>
+          <p><strong>Examples:</strong> Session cookies, authentication cookies, security cookies.</p>
+          
+          <h6 class="mt-3">3.2 Analytics Cookies</h6>
+          <p>These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site.</p>
+          <p><strong>Examples:</strong> Google Analytics, Hotjar.</p>
+          
+          <h6 class="mt-3">3.3 Marketing Cookies</h6>
+          <p>These cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user.</p>
+          <p><strong>Examples:</strong> Google Ads, LinkedIn Insight Tag, Facebook Pixel.</p>
+          
+          <h5 class="mt-4">4. Third-Party Cookies</h5>
+          <p>Some cookies are placed by third-party services that appear on our pages. These third parties may collect information about your online activities over time and across different websites when you visit our site.</p>
+          
+          <h5 class="mt-4">5. Cookie Management</h5>
+          <p>You can manage your cookie preferences in the following ways:</p>
+          <ul>
+            <li><strong>Through our cookie consent tool:</strong> You can adjust your cookie preferences using our cookie consent banner that appears when you first visit our site.</li>
+            <li><strong>Browser settings:</strong> Most web browsers allow you to control cookies through their settings. Please note that if you choose to block certain cookies, you may not be able to use all the features of our website.</li>
+          </ul>
+          
+          <h5 class="mt-4">6. Cookie Duration</h5>
+          <p>Cookies can remain on your device for different periods of time:</p>
+          <ul>
+            <li><strong>Session Cookies:</strong> These are temporary and are erased when you close your browser.</li>
+            <li><strong>Persistent Cookies:</strong> These remain on your device until they expire or are deleted. The duration varies depending on the cookie.</li>
+          </ul>
+          
+          <h5 class="mt-4">7. Specific Cookies We Use</h5>
+          <table class="table table-bordered table-striped mt-3">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Provider</th>
+                <th>Purpose</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Necessary</td>
+                <td>cookieConsent</td>
+                <td>Seres IT</td>
+                <td>Stores your cookie consent preferences</td>
+                <td>1 year</td>
+              </tr>
+              <tr>
+                <td>Necessary</td>
+                <td>gdprAccepted</td>
+                <td>Seres IT</td>
+                <td>Records GDPR notice acceptance</td>
+                <td>1 year</td>
+              </tr>
+              <tr>
+                <td>Analytics</td>
+                <td>_ga</td>
+                <td>Google</td>
+                <td>Distinguishes users for analytics</td>
+                <td>2 years</td>
+              </tr>
+              <tr>
+                <td>Analytics</td>
+                <td>_gid</td>
+                <td>Google</td>
+                <td>Counts and tracks pageviews</td>
+                <td>24 hours</td>
+              </tr>
+              <tr>
+                <td>Marketing</td>
+                <td>_fbp</td>
+                <td>Facebook</td>
+                <td>Used by Facebook to deliver advertisements</td>
+                <td>3 months</td>
+              </tr>
+              <tr>
+                <td>Marketing</td>
+                <td>lidc</td>
+                <td>LinkedIn</td>
+                <td>Used for routing and LinkedIn ad analytics</td>
+                <td>24 hours</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h5 class="mt-4">8. Changes to This Cookie Policy</h5>
+          <p>We may update this Cookie Policy from time to time to reflect changes in technology, regulation, or our business practices. Any changes will be posted on this page with an updated "Last Updated" date.</p>
+          
+          <h5 class="mt-4">9. Contact Us</h5>
+          <p>If you have any questions about our use of cookies, please contact us at:</p>
+          <p>Seres IT Solutions<br>
+          Email: privacy@seresit.com<br>
+          Address: Mainzer Landstraße 50, 60325 Frankfurt am Main, Germany</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="openCookieSettings">Manage Cookies</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms of Service Modal -->
+  <div class="modal fade" id="termsOfServiceModal" tabindex="-1" aria-labelledby="termsOfServiceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="termsOfServiceModalLabel">Terms of Service</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Last Updated: September 9, 2025</h6>
+          
+          <h5 class="mt-4">1. Introduction</h5>
+          <p>These Terms of Service ("Terms") govern your use of the website operated by Seres IT Solutions ("we," "our," or "us") and any services offered through the website. By accessing or using our website, you agree to be bound by these Terms.</p>
+          
+          <h5 class="mt-4">2. Services</h5>
+          <p>We provide consulting and engineering services across SAP, AI, custom software development, and cybersecurity. Any specific services will be governed by separate agreements between you and Seres IT Solutions.</p>
+          
+          <h5 class="mt-4">3. Use of the Website</h5>
+          <p>You agree to use our website only for lawful purposes and in accordance with these Terms. You agree not to:</p>
+          <ul>
+            <li>Use the website in any way that violates applicable laws or regulations</li>
+            <li>Use the website to transmit any malware, viruses, or other malicious code</li>
+            <li>Attempt to gain unauthorized access to any portion of the website or any systems or networks connected to the website</li>
+            <li>Collect or harvest any information from the website, including email addresses, without our consent</li>
+            <li>Impersonate or attempt to impersonate Seres IT Solutions, a Seres IT Solutions employee, or another user</li>
+          </ul>
+          
+          <h5 class="mt-4">4. Intellectual Property</h5>
+          <p>The website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof) are owned by Seres IT Solutions, its licensors, or other providers of such material and are protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.</p>
+          <p>You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our website without our prior written consent.</p>
+          
+          <h5 class="mt-4">5. Privacy</h5>
+          <p>Your privacy is important to us. Our <a href="#privacy-policy" data-bs-toggle="modal" data-bs-target="#privacyPolicyModal" data-bs-dismiss="modal">Privacy Policy</a> describes how we collect, use, and share information about you when you use our website.</p>
+          
+          <h5 class="mt-4">6. Third-Party Links</h5>
+          <p>Our website may contain links to third-party websites or services that are not owned or controlled by Seres IT Solutions. We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that Seres IT Solutions shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.</p>
+          
+          <h5 class="mt-4">7. Disclaimer of Warranties</h5>
+          <p>The website is provided on an "as is" and "as available" basis, without any warranties of any kind, either express or implied. To the fullest extent permitted by applicable law, we disclaim all warranties, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p>
+          
+          <h5 class="mt-4">8. Limitation of Liability</h5>
+          <p>To the fullest extent permitted by applicable law, in no event will Seres IT Solutions or its affiliates, directors, officers, employees, agents, or service providers be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the website; (ii) any conduct or content of any third party on the website; (iii) any content obtained from the website; and (iv) unauthorized access, use, or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence), or any other legal theory, whether or not we have been informed of the possibility of such damage.</p>
+          
+          <h5 class="mt-4">9. Indemnification</h5>
+          <p>You agree to defend, indemnify, and hold harmless Seres IT Solutions and its affiliates, directors, officers, employees, agents, and service providers from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the website.</p>
+          
+          <h5 class="mt-4">10. Governing Law</h5>
+          <p>These Terms shall be governed by and construed in accordance with the laws of Germany, without regard to its conflict of law provisions. Any legal action or proceeding arising out of or relating to these Terms or your use of the website shall be brought exclusively in the courts of Frankfurt am Main, Germany, and you consent to the personal jurisdiction of such courts.</p>
+          
+          <h5 class="mt-4">11. Changes to Terms</h5>
+          <p>We may update these Terms from time to time. We will notify you of any changes by posting the new Terms on this page and updating the "Last Updated" date. You are advised to review these Terms periodically for any changes.</p>
+          
+          <h5 class="mt-4">12. Contact Us</h5>
+          <p>If you have any questions about these Terms, please contact us at:</p>
+          <p>Seres IT Solutions<br>
+          Email: legal@seresit.com<br>
+          Address: Mainzer Landstraße 50, 60325 Frankfurt am Main, Germany</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imprint Modal -->
+  <div class="modal fade" id="imprintModal" tabindex="-1" aria-labelledby="imprintModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="imprintModalLabel">Imprint</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h5 class="mt-2">Information according to § 5 TMG (German Telemedia Act)</h5>
+          
+          <h6 class="mt-4">Company Details</h6>
+          <p>
+            Seres IT Solutions GmbH<br>
+            Mainzer Landstraße 50<br>
+            60325 Frankfurt am Main<br>
+            Germany
+          </p>
+          
+          <h6 class="mt-4">Contact</h6>
+          <p>
+            Phone: +49 69 509565500<br>
+            Email: info@seresit.com<br>
+            Website: www.seresit.com
+          </p>
+          
+          <h6 class="mt-4">Commercial Register</h6>
+          <p>
+            Registered at: Amtsgericht Frankfurt am Main<br>
+            Registration Number: HRB 123456
+          </p>
+          
+          <h6 class="mt-4">VAT Identification Number</h6>
+          <p>
+            VAT ID according to § 27a of the German Value Added Tax Act:<br>
+            DE987654321
+          </p>
+          
+          <h6 class="mt-4">Responsible for Content (according to § 55 Abs. 2 RStV)</h6>
+          <p>
+            Max Mustermann<br>
+            Managing Director<br>
+            Seres IT Solutions GmbH<br>
+            Mainzer Landstraße 50<br>
+            60325 Frankfurt am Main<br>
+            Germany
+          </p>
+          
+          <h6 class="mt-4">EU Dispute Resolution</h6>
+          <p>The European Commission provides a platform for online dispute resolution (OS): <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a></p>
+          <p>We are not obligated and not willing to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+          
+          <h6 class="mt-4">Liability for Content</h6>
+          <p>As a service provider, we are responsible for our own content on these pages according to § 7 Abs.1 TMG (German Telemedia Act) and general laws. According to §§ 8 to 10 TMG, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.</p>
+          <p>Obligations to remove or block the use of information under general law remain unaffected. However, liability in this regard is only possible from the time of knowledge of a specific legal violation. Upon becoming aware of such legal violations, we will remove this content immediately.</p>
+          
+          <h6 class="mt-4">Liability for Links</h6>
+          <p>Our website contains links to external websites over which we have no control. We cannot accept any liability for this external content. The respective provider or operator of the linked pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. No illegal content was discernible at the time the link was established.</p>
+          <p>A permanent control of the linked pages is unreasonable without concrete evidence of a violation of law. Upon notification of violations, we will remove such links immediately.</p>
+          
+          <h6 class="mt-4">Copyright</h6>
+          <p>The content and works created by the site operators on these pages are subject to German copyright law. The duplication, processing, distribution, and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use.</p>
+          <p>Insofar as the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. Upon notification of violations, we will remove such content immediately.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
