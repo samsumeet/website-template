@@ -1,2 +1,2 @@
 # website-template
-Custom website theme made from scratch
+Custom website theme made from scratch using AI
